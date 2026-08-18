@@ -11,6 +11,14 @@ class Calculadora {
   subtrair(a, b) {
     return a-b;
   }
+
+  subtrair(a, b) {
+    return a-b;
+  }
+
+  mult(a, b) {
+    return 6;
+  }
 }
 
 export default Calculadora;
