@@ -19,4 +19,9 @@ describe('Calculadora', () => {
     resultado = calculadora.subtrair(4, 2);
     expect(resultado).toBe(2);
   });
+
+  test('multiplicar', () => {
+    let resultado = calculadora.mult(2, 3);
+    expect(resultado).toBe(6);
+  });
 });
